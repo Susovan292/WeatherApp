@@ -1,0 +1,16 @@
+body{
+    background-image:  url(' https://i.pinimg.com/originals/f8/42/6b/f8426bf4f6892dfed16b2e0f583d5670.gif');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire area */
+    background-position: center;
+}
+.mine{
+    background-image:  url(' https://i.pinimg.com/originals/f8/42/6b/f8426bf4f6892dfed16b2e0f583d5670.gif');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: cover; /* Scales the image to cover the entire area */
+    background-position: center;
+}
+.flex-container{
+  width: 300px; /* You can adjust the width */
+  margin: 0 auto; /* Centers the form on the page */
+}

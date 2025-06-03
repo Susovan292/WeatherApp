@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Weather App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet"  type="text/css" href="./style/main.css">
+</head>
+<body>
+
+<div class="container my-5 "> 
+<div class="p-5 text-center bg-body-tertiary rounded-3 mine"> 
+<svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100" aria-hidden="true">
+<use xlink:href="#bootstrap"></use></svg>
+<h1 class="text-body-emphasis">"Welcome! It’s great to have you here."</h1>
+<p class="col-lg-8 mx-auto fs-5 text-muted">
+"Welcome to Weather App — your personal weather companion. Get real-time forecasts, accurate updates, and stay ahead of the weather, wherever you are."</p> 
+<h2>Enter your city name</h2>
+
+<form class="flex-container" action="/submit" method="POST">
+ <input type="text" name="city-name" class="form-control"> 
+
+<button class="btn btn-primary w-100 py-2 mt-3" type="submit"action="submit" method="post">continue</button>
+
+<p class="mt-5 mb-3 text-body-secondary">© 2025</p> </form> 
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</html>
